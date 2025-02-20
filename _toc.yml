@@ -1,5 +1,5 @@
 format: jb-book
-root: intro
+root: micrograduate/README
 chapters:
 - file: micrograduate/micrograd
 - file: micrograduate/makemore1
