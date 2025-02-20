@@ -1,0 +1,14 @@
+title: microgra∇uate
+author: Christos Karaneen
+logo: micrograduate/logo.gif
+
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/ckaraneen/micrograduate
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true

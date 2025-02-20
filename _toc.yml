@@ -1,0 +1,10 @@
+format: jb-book
+root: intro
+chapters:
+- file: micrograduate/micrograd
+- file: micrograduate/makemore1
+- file: micrograduate/makemore2
+- file: micrograduate/makemore3
+- file: micrograduate/makemore4
+- file: micrograduate/makemore5
+- file: micrograduate/picogpt
