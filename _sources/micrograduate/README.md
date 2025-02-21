@@ -1,4 +1,7 @@
-# [microgra∇uate](https://micrograduate-book.github.io) [![x tweet badge](https://img.shields.io/twitter/url?url=https://x.com)]() [![jupyter book badge](https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/images/badge.svg)]() [![mit license badge](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)  
+# <div align="center"> [![](./heading.png)](https://micrograduate-book.github.io) </div>        
+[![](https://img.shields.io/github/stars/executablebooks/jupyter-book?style=social)](https://github.com/ckaraneen/micrograduate) [![X-Tweet Badge](https://img.shields.io/twitter/url?url=https://x.com)]()
+[![Jupyter Book Badge](https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/images/badge.svg)]()
+[![MIT License Badge](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 
 [![](./logo.gif)](https://micrograduate-book.github.io)
 
