@@ -1,6 +1,6 @@
 <div align="center">
 
-[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/main/heading.png?token=GHSAT0AAAAAAC52OFW7774XJFAQXWMXFIHCZ5Z2UQQ)](https://micrograduate-book.github.io)
+[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/main/heading.png?token=GHSAT0AAAAAAC52OFW6EIE4O353CPWLDXCSZ5Z43QQ)](https://micrograduate-book.github.io)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Jupyter Book Badge](https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/images/badge.svg)]()
 [![MIT License Badge](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 
-[![](./logo.gif)](https://micrograduate-book.github.io)
+[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/refs/heads/main/logo.gif?token=GHSAT0AAAAAAC52OFW6EIE4O353CPWLDXCSZ5Z43QQ)](https://micrograduate-book.github.io)
 
 ## 🤔 Description ℹ️ 
 
