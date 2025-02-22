@@ -1,6 +1,6 @@
 <div align="center">
 
-[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/main/heading.png?token=GHSAT0AAAAAAC52OFW6EIE4O353CPWLDXCSZ5Z43QQ)](https://micrograduate-book.github.io)
+[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/refs/heads/main/heading.png?token=GHSAT0AAAAAAC52OFW63MZFUSQGMQFQWVS6Z5Z46FA)](https://micrograduate-book.github.io)
 
 </div>
 
