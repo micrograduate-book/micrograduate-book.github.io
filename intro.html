@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to your Jupyter Book &#8212; microgra∇uate</title>
+    <title>Preface &#8212; microgra∇uate</title>
   
   
   
@@ -58,9 +58,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. micrograd: implementing an autograd engine" href="micrograduate/micrograd.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -143,7 +146,7 @@
     
   
 
-<a class="navbar-brand logo" href="micrograduate/README.html">
+<a class="navbar-brand logo" href="#">
   
   
   
@@ -172,9 +175,9 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="micrograduate/README.html">
-                    📖 Read 🌻
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Preface
                 </a>
             </li>
         </ul>
@@ -358,7 +361,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -369,11 +374,26 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to your Jupyter Book</h1>
+    <h1>Preface</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description-i">🤔 Description ℹ️</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#read">📖 Read 🌻</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#run">⚡ Run ☄️</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#online">🌐 Online</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#locally">🏡 Locally</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">✨ Acknowledgements 🙏</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -383,13 +403,110 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Link to this heading">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="preface">
+<h1>Preface<a class="headerlink" href="#preface" title="Link to this heading">#</a></h1>
+<div align="center">
+<p><a class="reference external" href="https://micrograduate-book.github.io"><img alt="" src="heading.png" /></a></p>
+</div>
+<p><a class="reference external" href="https://github.com/ckarageorgkaneen/micrograduate"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ckarageorgkaneen/micrograduate?style=social" /></a><sup>⭐</sup>
+<a class="reference internal" href="#"><span class="xref myst"><img alt="X-Tweet Badge" src="https://img.shields.io/twitter/url?url=https://x.com" /></span></a>
+<a class="reference internal" href="#"><span class="xref myst"><img alt="Jupyter Book Badge" src="https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/images/badge.svg" /></span></a>
+<a class="reference external" href="https://opensource.org/licenses/MIT"><img alt="MIT License Badge" src="https://img.shields.io/badge/License-MIT-success.svg" /></a></p>
+<p><a class="reference external" href="https://micrograduate-book.github.io"><img alt="" src="logo.gif" /></a></p>
+<section id="description-i">
+<h2>🤔 Description ℹ️<a class="headerlink" href="#description-i" title="Link to this heading">#</a></h2>
+<p>A self-contained course to learn the basics of neural networks: from backprop to GPT!</p>
+</section>
+<section id="read">
+<h2>📖 Read 🌻<a class="headerlink" href="#read" title="Link to this heading">#</a></h2>
+<p>Visit <a class="reference external" href="https://micrograduate-book.github.io"><strong>micrograduate-book.github.io</strong></a>.</p>
+</section>
+<section id="run">
+<h2>⚡ Run ☄️<a class="headerlink" href="#run" title="Link to this heading">#</a></h2>
+<section id="online">
+<h3>🌐 Online<a class="headerlink" href="#online" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>#</p></th>
+<th class="head"><p>📔</p></th>
+<th class="head"><p>🔗</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/micrograd.html"><strong>micrograd</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/micrograd.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/makemore1.html"><strong>makemore1</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/makemore1.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/makemore2.html"><strong>makemore2</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/makemore2.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/makemore3.html"><strong>makemore3</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/makemore3.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/makemore4.html"><strong>makemore4</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/makemore4.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/makemore5.html"><strong>makemore5</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/makemore5.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p><a class="reference external" href="https://micrograduate-book.github.io/micrograduate/picogpt.html"><strong>picoGPT</strong></a></p></td>
+<td><p><a class="reference external" href="https://colab.research.google.com/github/ckaraneen/micrograduate/blob/main/picogpt.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="locally">
+<h3>🏡 Locally<a class="headerlink" href="#locally" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Clone repo:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ckaraneen/micrograduate.git
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Create and activate env:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>micrograduate
+conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>--file<span class="w"> </span>environment.yaml
+conda<span class="w"> </span>activate<span class="w"> </span>micrograduate-env
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Install requirements:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>uv<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Run notebooks in <a class="reference external" href="https://docs.jupyter.org/en/latest/running.html">Notebook Server</a>, <a class="reference external" href="https://code.visualstudio.com/docs/datascience/jupyter-notebooks">VSCode/Cursor</a>, etc.</p></li>
+</ol>
+</section>
+</section>
+<section id="acknowledgements">
+<h2>✨ Acknowledgements 🙏<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://micrograduate-book.github.io"><strong>microgra∇uate</strong></a> builds on the works of <a class="reference external" href="https://karpathy.ai/">Andrej Karpathy</a> (<em>check out</em> <a class="reference external" href="https://eurekalabs.ai/">Eureka Labs</a>!) and <a class="reference external" href="https://jaykmody.com/">Jay Mody</a>:</p>
+<ul class="simple">
+<li><p>Neural Networks: Zero to Hero <a class="reference external" href="https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ">lecture series</a> and <a class="reference external" href="https://github.com/karpathy/nn-zero-to-hero">repo</a></p></li>
+<li><p><a class="reference external" href="https://github.com/karpathy/micrograd">micrograd</a></p></li>
+<li><p><a class="reference external" href="https://github.com/karpathy/makemore">makemore</a></p></li>
+<li><p><a class="reference external" href="https://jaykmody.com/blog/attention-intuition/">An Intuition for Attention</a></p></li>
+<li><p><a class="reference external" href="https://jaykmody.com/blog/gpt-from-scratch/">GPT in 60 lines of code</a></p></li>
+<li><p><a class="reference external" href="https://github.com/jaykmody/pico-gpt">picoGPT</a></p></li>
+</ul>
+<p>It would not exist without their contributions. ❤️</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -422,12 +539,43 @@ It does not go in-depth into any particular topic - check out <a class="referenc
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="right-next"
+       href="micrograduate/micrograd.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">1. <strong>micrograd</strong>: implementing an autograd engine</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description-i">🤔 Description ℹ️</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#read">📖 Read 🌻</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#run">⚡ Run ☄️</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#online">🌐 Online</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#locally">🏡 Locally</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">✨ Acknowledgements 🙏</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
