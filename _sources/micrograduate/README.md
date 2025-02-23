@@ -11,7 +11,7 @@
 
 [![](./logo.gif)](https://micrograduate-book.github.io)
 
-## Preface
+# Preface
 
 A self-contained course to learn the basics of neural networks: from backprop to GPT! 
 
