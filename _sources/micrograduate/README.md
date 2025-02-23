@@ -1,6 +1,6 @@
 <div align="center">
 
-[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/refs/heads/main/heading.png)](https://micrograduate-book.github.io)
+[![](./heading.png)](https://micrograduate-book.github.io)
 
 </div>
 
@@ -9,9 +9,9 @@
 [![Jupyter Book Badge](https://raw.githubusercontent.com/jupyter-book/jupyter-book/refs/heads/main/docs/images/badge.svg)]()
 [![MIT License Badge](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 
-[![](https://raw.githubusercontent.com/ckaraneen/micrograduate/refs/heads/main/logo.gif)](https://micrograduate-book.github.io)
+[![](./logo.gif)](https://micrograduate-book.github.io)
 
-## 🤔 Description ℹ️ 
+## Preface
 
 A self-contained course to learn the basics of neural networks: from backprop to GPT! 
 
