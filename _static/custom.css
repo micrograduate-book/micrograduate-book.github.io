@@ -1,3 +1,7 @@
 button.theme-switch-button {
     display: none !important;
 }
+
+.hidden-heading {
+    display: none;
+}
