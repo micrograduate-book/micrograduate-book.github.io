@@ -13,6 +13,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon: micrograduate/logo.png
+  title: microgra∇uate
 
 sphinx:
   recursive_update: true
