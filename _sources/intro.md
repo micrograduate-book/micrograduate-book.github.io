@@ -1,6 +1,4 @@
-<div class="hidden-heading">
-# Preface
-</div>
+# Preface {#preface-heading}
 
 ```{include} micrograduate/README.md
 ```
