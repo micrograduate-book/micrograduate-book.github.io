@@ -1,4 +1,4 @@
-```{only} never_show
+```{toggle}
 # Preface
 ```
 
