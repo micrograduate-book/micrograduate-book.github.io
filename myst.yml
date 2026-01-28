@@ -1,0 +1,22 @@
+version: 1
+project:
+  title: microgra∇uate
+  authors:
+    - name: Christos Karaneen
+  copyright: MIT License
+  github: ckaraneen/micrograduate
+  toc:
+    - file: micrograduate/README.md
+    - file: micrograduate/micrograd.ipynb
+    - file: micrograduate/makemore1.ipynb
+    - file: micrograduate/makemore2.ipynb
+    - file: micrograduate/makemore3.ipynb
+    - file: micrograduate/makemore4.ipynb
+    - file: micrograduate/makemore5.ipynb
+    - file: micrograduate/picogpt.ipynb
+site:
+  options:
+    logo: micrograduate/book_logo.png
+    favicon: micrograduate/logo.png
+    folders: true
+  template: book-theme
