@@ -15,11 +15,9 @@ project:
     - file: micrograduate/picogpt.ipynb
 site:
   template: book-theme
+  thebe: false
   options:
     logo: micrograduate/logo.png
     favicon: micrograduate/logo.png
     folders: true
-    mode: light              # Enforce light mode
-    scripts:
-      - _static/theme_fix.js
-    style: _static/custom.css
+    mode: light
